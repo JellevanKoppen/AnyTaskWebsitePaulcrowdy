@@ -24,7 +24,6 @@ html {
   src: url("../provided/Fonts/kids_book/Kids Book Bold.ttf");
 }
 
-
 .font-1 {
   font-family: font-1;
 }
@@ -42,10 +41,10 @@ html {
 }
 
 .header {
-  background: #FFFFFF url("../provided/header.jpg") no-repeat center top;
   box-shadow: 0px 8px 8px rgba(0, 0, 0, 0.5);
-  background-size: cover;
-  min-height: 500px;
+  max-height: 500px;
+  width: 100%;
+  object-fit: cover;
 }
 
 .header-carousel {
@@ -81,6 +80,15 @@ html {
   margin-bottom: 3px;
 }
 
+.flip-horizontally {
+  -moz-transform: scaleX(-1);
+  -o-transform: scaleX(-1);
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+  filter: FlipH;
+  -ms-filter: "FlipH";
+}
+
 .white-border {
   border: 15px solid white;
   box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.09), 0px 0px 2px rgba(0, 0, 0, 0.09), 6px 6px 8px rgba(0, 0, 0, 0.35);
@@ -95,7 +103,7 @@ html {
 .anchor {
   display: block;
   position: relative;
-  /* top: -107px; */
+  top: -107px;
   visibility: hidden;
 }
 
