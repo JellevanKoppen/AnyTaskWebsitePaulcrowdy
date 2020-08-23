@@ -3,11 +3,59 @@ html {
   scroll-behavior: smooth;
 }
 
+/* Custom fonts */
+@font-face {
+  font-family: font-1;
+  src: url("../provided/Fonts/jungle_juice/JUNGJ___.TTF");
+}
+
+@font-face {
+  font-family: font-2;
+  src: url("../provided/Fonts/just_kidding/just kidding.ttf");
+}
+
+@font-face {
+  font-family: font-3;
+  src: url("../provided/Fonts/kids_book/Kids Book.ttf");
+}
+
+@font-face {
+  font-family: font-3-bold;
+  src: url("../provided/Fonts/kids_book/Kids Book Bold.ttf");
+}
+
+
+.font-1 {
+  font-family: font-1;
+}
+
+.font-2 {
+  font-family: font-2;
+}
+
+.font-3 {
+  font-family: font-3;
+}
+
+.font-3-bold {
+  font-family: font-3-bold;
+}
+
 .header {
   background: #FFFFFF url("../provided/header.jpg") no-repeat center top;
   box-shadow: 0px 8px 8px rgba(0, 0, 0, 0.5);
   background-size: cover;
   min-height: 500px;
+}
+
+.header-carousel {
+  box-shadow: 0px 8px 8px rgba(0, 0, 0, 0.5);
+  max-height: 500px;
+}
+
+.header-carousel img {
+  max-height: 500px;
+  object-fit: cover;
 }
 
 .header-border {
@@ -25,7 +73,7 @@ html {
 }
 
 .active {
-  color: #081d31 !important;
+  color: #19c0ff !important;
 }
 
 .nav-item {
@@ -38,6 +86,12 @@ html {
   box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.09), 0px 0px 2px rgba(0, 0, 0, 0.09), 6px 6px 8px rgba(0, 0, 0, 0.35);
 }
 
+.customer-bubble {
+  border: 15px solid white;
+  box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.09), 0px 0px 2px rgba(0, 0, 0, 0.09), 6px 6px 8px rgba(0, 0, 0, 0.35);
+  border-radius: 0 .75rem .75rem .75rem;
+}
+
 .anchor {
   display: block;
   position: relative;
@@ -47,6 +101,10 @@ html {
 
 .white-space {
   height: 5rem;
+}
+
+footer ul {
+  list-style-type: none;
 }
 
 #maps-overlay {
@@ -68,8 +126,25 @@ html {
   background-color: #ccecff !important;
 }
 
+.bg-orange {
+  background-color: #ff4301 !important;
+}
+
+.bg-green {
+  background-color: #39ad00 !important;
+}
+
+.bg-red {
+  background-color: #ed0c1f !important;
+}
+
+.bg-carousel {
+  background-color: rgba(0,0,0,0.8);
+  border-radius: .25rem;
+}
+
 .bg-custom-dark {
-  background-color: #081d31 !important;
+  background-color: #19c0ff !important;
 }
 
 .bg-light {
@@ -81,14 +156,18 @@ html {
   transition: color 0.5s ease;
 }
 
+.text-black {
+  color: black !important;
+}
+
 .nav-item:hover {
   border-bottom: 3px solid #00a2ff;
-  color: #081d31 !important;
+  color: #19c0ff !important;
   margin-bottom: 0;
 }
 
 .text-custom {
-  color: #081d31 !important;
+  color: #314c67 !important;
 }
 
 .text-custom-muted {

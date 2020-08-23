@@ -20,7 +20,7 @@
 
 <body>
   <!-- Navigation bar -->
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
     <a class="navbar-brand" href="index.html">
       <img src="./images/lc-logo.png" alt="" class="img-fluid" width="200px">
     </a>
@@ -30,47 +30,287 @@
     <div id="navbarNavDropdown" class="collapse navbar-collapse flex-grow-1 bg-light text-right">
       <ul class="navbar-nav ml-auto flex-nowrap mr-sm-5 mr-md-5">
         <li class="nav-item active">
-          <a class="nav-link" href="index.html">Home</a>
+          <a class="nav-link" href="about.html">About Us</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#about">Wie zijn wij</a>
+          <a class="nav-link" href="classes.html">Classes</a>
         </li>
-        <!-- <li class="nav-item">
-            <a class="nav-link disabled" href="shop.html">Shop</a>
-          </li> -->
         <li class="nav-item">
-          <a class="nav-link" href="#contact">Contact</a>
+          <a class="nav-link" href="parties.html">Parties</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="community.html">Community</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="news.html">Latest News</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="reviews.html">Reviews</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="contact.html">Contact</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="tel:07534 682 042"><img src="./images/telephone-icon.png" class="mr-1" style="width: 20px;">07534 682 042</a>
         </li>
       </ul>
     </div>
   </nav>
 
-  <!-- Header -->
-  <div class="header">
-    <div class="container" style="height: 500px;">
-      <div class="row h-100 ml-md-3 ml-lg-5">
-        <div class="col-12 col-md-8 col-lg-6 align-self-center text-center">
-          <h1 class="text-white w-100">Welcome to Little Chameleons!</h1>
-          <h3 class="text-white w-100">We do messy play like you've never seen</h3>
-          <a href="#contact" class="btn btn-primary text-white btn-shadow">See Events!</a>
+  <!-- Carousel -->
+  <div id="carousel" class="carousel slide header-carousel" data-ride="carousel">
+    <ol class="carousel-indicators">
+      <li data-target="#carousel" data-slide-to="0" class="active"></li>
+      <li data-target="#carousel" data-slide-to="1"></li>
+      <li data-target="#carousel" data-slide-to="2"></li>
+    </ol>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img class="d-block w-100" src="./images/ph-3.jpg" alt="First slide">
+        <div class="carousel-caption d-none d-md-block">
+          <h1 class="text-white">Welcome to Little Chameleons!</h1>
+          <h3 class="text-white">We do messy play like you've never seen</h3>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img class="d-block w-100" src="./images/ph-1.jpg" alt="Second slide">
+        <div class="carousel-caption d-none d-md-block">
+          <h1>Welcome to ...!</h1>
+          <h3>Place subheader here</h3>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img class="d-block w-100" src="./images/ph-2.jpg" alt="Third slide">
+        <div class="carousel-caption d-none d-md-block">
+          <h1>Welcome to ...!</h1>
+          <h3>Place subheader here</h3>
+        </div>
+      </div>
+    </div>
+    <a class="carousel-control-prev" href="#carousel" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#carousel" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+
+  <!-- Content -->
+  <div class="container font-3">
+    <div class="row">
+      <div class="col-12">
+        <h1 class="my-5 font-3-bold">Welcome to Little Chameleons</h1>
+        <h3 class="font-3-bold">
+          Little Chameleons runs art, craft and messy play classes for a range of ages, while allowing parents and carers to enjoy a cup of tea and leave the mess behind!
+        </h3>
+      </div>
+      <div class="col-4 mt-5">
+        <h3 class="text-custom font-1">Font 1 - Test abcdefg</h3>
+        <p class="text-custom font-1">Lorem ipsum text here! !@#$% test abcdefg</p>
+      </div>
+      <div class="col-4 mt-5">
+        <h3 class="text-custom font-2">Font 2 - Test abcdefg</h3>
+        <p class="text-custom font-2">Lorem ipsum text here! !@#$% test abcdefg</p>
+      </div>
+      <div class="col-4 mt-5">
+        <h3 class="text-custom font-3">Font 3 - Test abcdefg</h3>
+        <p class="text-custom font-3">Lorem ipsum text here! !@#$% test abcdefg</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="container-fluid bg-orange mt-3 text-white">
+    <img src="./images/lc-logo-outline-white.png" class="mt-n3 mr-n4" style="position: absolute; right: 0; width: 200px;"alt="">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <h1 class="font-3-bold mt-3">Upcoming Events</h1>
+        </div>
+        <div class="col-12">
+          <section class="font-3">
+            See what's comming in the next weeks!
+          </section>
+        </div>
+        <div class="col-12">
+          <div class="row my-5">
+            <div class="col-md-4">
+              <img src="./images/mp-1.jpg" class="img-fluid white-border" alt="">
+              <div class="ml-3 mt-2">
+                <h3>Messy play!</h3>
+                <section>
+                  <u class="font-3-bold">25-08-2020</u> <br />
+                  Come down and play!
+                </section>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <img src="./images/mp-2.jpg" class="img-fluid white-border" alt="">
+              <div class="ml-3 mt-2">
+                <h3>Messy play!</h3>
+                <section>
+                  <u class="font-3-bold">01-09-2020</u> <br />
+                  Come down and play!
+                </section>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <img src="./images/mp-3.jpg" class="img-fluid white-border" alt="">
+              <div class="ml-3 mt-2">
+                <h3>Messy play!</h3>
+                <section>
+                  <u class="font-3-bold">08-09-2020</u> <br />
+                  Come down and play!
+                </section>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
   </div>
 
-  <!-- Content -->
-  <div class="container">
-
+  <div class="container-fluid bg-green mt-3 text-white">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <h1 class="font-3-bold mt-3">Latest News</h1>
+        </div>
+        <div class="col-12">
+          <section class="font-3">
+            See what's comming in the next weeks!
+          </section>
+        </div>
+        <div class="col-12">
+          <div class="row my-5">
+            <div class="col-md-4">
+              <img src="./images/mp-1.jpg" class="img-fluid white-border" alt="">
+              <div class="ml-3 mt-2">
+                <h3>Messy play!</h3>
+                <section>
+                  <u class="font-3-bold">25-08-2020</u> <br />
+                  Come down and play!
+                </section>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <img src="./images/mp-2.jpg" class="img-fluid white-border" alt="">
+              <div class="ml-3 mt-2">
+                <h3>Messy play!</h3>
+                <section>
+                  <u class="font-3-bold">01-09-2020</u> <br />
+                  Come down and play!
+                </section>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <img src="./images/mp-3.jpg" class="img-fluid white-border" alt="">
+              <div class="ml-3 mt-2">
+                <h3>Messy play!</h3>
+                <section>
+                  <u class="font-3-bold">08-09-2020</u> <br />
+                  Come down and play!
+                </section>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <img src="./images/lc-logo-outline-white.png" class="mt-n5" style="position: absolute; left: 55%; width: 200px;"alt="">
   </div>
 
+  <div class="container-fluid bg-red mt-3 text-white font-3">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <h1 class="font-3-bold mt-3">Reviews</h1>
+        </div>
+        <div class="col-12">
+          <section>
+            What our customers say about us!
+          </section>
+        </div>
+        <div class="col-12">
+          <div class="row my-5">
+            <div class="col-md-4">
+              <section class="customer-bubble bg-white text-black">
+                <h3 class="font-3-bold">Will come again!</h3>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse a sapien sagittis, consectetur enim ut, venenatis lectus. Proin malesuada commodo augue, ac ultricies tortor iaculis id. Phasellus non cursus nisi. Aenean ornare turpis dolor, sit amet volutpat tellus pretium a. Nunc vulputate turpis quis turpis fermentum tempor. dolor ut neque vehicula efficitur. In a commodo sem.
+                <br />
+                - John Doe
+              </section>
+            </div>
+            <div class="col-md-4">
+              <section class="customer-bubble bg-white text-black">
+                <h3 class="font-3-bold">Place to be!</h3>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse a sapien sagittis, consectetur enim ut, venenatis lectus. Proin malesuada commodo augue, ac ultricies tortor iaculis id. Phasellus non cursus nisi. Aenean ornare turpis dolor, sit amet volutpat tellus pretium a. Nunc vulputate turpis quis turpis fermentum tempor. dolor ut neque vehicula efficitur. In a commodo sem.
+                <br />
+                - John Doe
+              </section>
+            </div>
+            <div class="col-md-4">
+              <section class="customer-bubble bg-white text-black">
+                <h3 class="font-3-bold">Amazing!</h3>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse a sapien sagittis, consectetur enim ut, venenatis lectus. Proin malesuada commodo augue, ac ultricies tortor iaculis id. Phasellus non cursus nisi. Aenean ornare turpis dolor, sit amet volutpat tellus pretium a. Nunc vulputate turpis quis turpis fermentum tempor. dolor ut neque vehicula efficitur. In a commodo sem.
+                <br />
+                - John Doe
+              </section>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
   <!-- footer -->
-  <footer class="sticky-bottom bg-custom-dark text-center mt-5 pt-2">
-    <h1 class="text-white font-weight-bold">LOGO</h1>
-    <section class="text-white pb-3 border-bottom">
-      Telefoonnummer: +316******** <br />
-      <a class="text-white" href="mailto:example@example.com">Email: example@example.com</a> <br />
-      Adresgegevens: Postcode, Straat huisnr, Stad
-    </section>
+  <footer class="sticky-bottom bg-custom-dark text-center mt-3 pt-3 font-3">
+    <div class="container-fluid text-center text-md-left pb-3 border-bottom">
+      <div class="row">
+        <div class="col-md-3 my-auto">
+          <img src="./images/lc-logo-white.png" alt="" class="img-fluid">
+        </div>
+        <div class="col-md-6">
+          <div class="row">
+
+            <div class="col-12">
+              <h3 class="text-white font-3-bold">Usefull links</h3>
+            </div>
+            <div class="col-6 text-white">
+              <ul class="list-group">
+                <li><a href="index.html" class="text-white">Home</a></li>
+                <li><a href="about.html" class="text-white">About Us</a></li>
+                <li><a href="classes.html" class="text-white">Classes</a></li>
+                <li><a href="parties.html" class="text-white">Parties</a></li>
+                <li><a href="community.html" class="text-white">Community</a></li>
+                <li><a href="#" class="text-white">Make a Payment</a></li>
+              </ul>
+            </div>
+            <div class="col-6 text-white">
+              <ul class="list-group">
+                <li><a href="about.html" class="text-white">Latest News</a></li>
+                <li><a href="classes.html" class="text-white">Reviews</a></li>
+                <li><a href="parties.html" class="text-white">Contact</a></li>
+                <li><a href="privacy-policy.html" class="text-white">Privacy</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <h3 class="text-white font-3-bold">Contact Us</h3>
+          <section class="text-white">
+            <a href="tel:07534 682 042" class="text-white">Tel: 07534 682 042</a> <br />
+            <a class="text-white" href="mailto:info@littlechameleons.co.uk">Email: info@littlechameleons.co.uk</a> <br />
+            Little Chameleons Ltd. <br />
+            17 Royal Parade, <br />
+            Chislehurst, Kent. <br />
+            BR7 6NR
+          </section>
+        </div>
+      </div>
+    </div>
     <section class="text-white py-3">
       © 2020 All rights reserved
     </section>
