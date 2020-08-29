@@ -5,16 +5,6 @@ html {
 
 /* Custom fonts */
 @font-face {
-  font-family: font-1;
-  src: url("../provided/Fonts/jungle_juice/JUNGJ___.TTF");
-}
-
-@font-face {
-  font-family: font-2;
-  src: url("../provided/Fonts/just_kidding/just kidding.ttf");
-}
-
-@font-face {
   font-family: font-3;
   src: url("../provided/Fonts/kids_book/Kids Book.ttf");
 }
@@ -22,14 +12,6 @@ html {
 @font-face {
   font-family: font-3-bold;
   src: url("../provided/Fonts/kids_book/Kids Book Bold.ttf");
-}
-
-.font-1 {
-  font-family: font-1;
-}
-
-.font-2 {
-  font-family: font-2;
 }
 
 .font-3 {
@@ -57,18 +39,10 @@ html {
   object-fit: cover;
 }
 
-.header-border {
-  border: 4px solid white;
-}
-
 /* Custom elements */
 .navbar {
   border-bottom: 1px solid #EEF1F4;
   padding: 0rem 2rem !important;
-}
-
-.btn-shadow {
-  box-shadow: 0px 10px 17px rgba(0, 0, 0, 0.2)
 }
 
 .active {
@@ -134,13 +108,7 @@ footer ul {
   list-style-type: none;
 }
 
-#facebook-logo {
-  fill: #00a2ff !important;
-  transition: transform .5s ease;
-}
-
-#instagram-logo {
-  fill: #ed0c1f !important;
+#facebook-logo, #instagram-logo {
   transition: transform .5s ease;
 }
 
@@ -155,14 +123,6 @@ footer ul {
 }
 
 /* Custom colors */
-.bg-custom {
-  background-color: #00a2ff !important;
-}
-
-.bg-custom-light {
-  background-color: #ccecff !important;
-}
-
 .bg-orange {
   background-color: #ff4301 !important;
 }
@@ -173,11 +133,6 @@ footer ul {
 
 .bg-red {
   background-color: #ed0c1f !important;
-}
-
-.bg-carousel {
-  background-color: rgba(0,0,0,0.8);
-  border-radius: .25rem;
 }
 
 .bg-custom-dark {
@@ -201,14 +156,6 @@ footer ul {
   border-bottom: 3px solid #00a2ff;
   color: #19c0ff !important;
   margin-bottom: 0;
-}
-
-.text-custom {
-  color: #314c67 !important;
-}
-
-.text-custom-muted {
-  color: #314c67 !important;
 }
 
 .btn-custom {
@@ -239,21 +186,5 @@ footer ul {
   }
   .nav-link:hover {
     color: #00a2ff !important;
-  }
-}
-
-@media only screen and (max-width: 768px) {
-  .contact {
-    display: absolute;
-    background: #FFFFFF url("../images/ph-4.jpg") no-repeat center;
-    background-size: cover;
-  }
-
-  .text-sm-white {
-    color: white !important;
-  }
-
-  .white-border-sm { border: 15px solid white;
-    box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.09), 0px 0px 2px rgba(0, 0, 0, 0.09), 6px 6px 8px rgba(0, 0, 0, 0.35);
   }
 }
