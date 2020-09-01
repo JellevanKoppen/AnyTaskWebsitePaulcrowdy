@@ -188,3 +188,25 @@ footer ul {
     color: #00a2ff !important;
   }
 }
+
+@media only screen and (max-width: 576px) {
+  .social-icon {
+    padding: 20px;
+    width: 75% !important;
+  }
+
+  .sm-flip {
+    -moz-transform: scaleX(-1);
+    -o-transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+    filter: FlipH;
+    -ms-filter: "FlipH";
+  }
+
+  #maps-overlay {
+    top: 75px;
+    right:0;
+    transform: translate(-75%, 0);
+  }
+}
